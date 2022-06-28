@@ -1,8 +1,8 @@
 # ProductApp
 
-This project is developed using onion architecture.
+This project was developed using onion architecture. CQRS pattern was implemented using mediator pattern.
 
-EF in memory, MediatR, Automapper tools are used.
+EF in memory, MediatR, Automapper tools were used.
 
 Usage example:
 
@@ -17,10 +17,14 @@ Post   -->   http://localhost:...../api/product
                     "value": 3
                     }
                     
+                    
+                    
 //To get all products created    
 
 Get  --> http://localhost:...../api/product
 
-//To get a product by id (copy an id from the response you get from the request above. It will be called id below)
+
+
+//To get a product by id (copy an id from the response you get from the request above and paste after product/. It will be called id below)
 
 Get  --> http://localhost:...../api/product/id
