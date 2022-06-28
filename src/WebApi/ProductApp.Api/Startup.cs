@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ProductApp.Application;
 using ProductApp.Persistence;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,7 @@ namespace ProductApp.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddPersistenceServices();
+            services.AddApplicationServices();
             services.AddControllers();
         }
 
