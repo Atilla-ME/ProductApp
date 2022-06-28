@@ -1,4 +1,6 @@
-# ProductApp is a project developed to understand onion architecture.
+# ProductApp
+
+This project is developed using onion architecture.
 
 EF in memory, MediatR, Automapper tools are used.
 
